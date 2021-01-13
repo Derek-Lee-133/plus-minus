@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'plus-minus-ng';
+  
+   display = 0;
+  
+  plus() {
+   
+   this.display++;
+  }
+
+  minus() {
+    
+   this.display--;
+  }
+  
 }
